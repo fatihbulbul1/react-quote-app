@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-quote-app/static/css/main.d432d248.css",
+    "main.js": "/react-quote-app/static/js/main.90a6a1e4.js",
+    "static/media/1946437.jpg": "/react-quote-app/static/media/1946437.09936eeb7adfbf344ea2.jpg",
+    "index.html": "/react-quote-app/index.html",
+    "main.d432d248.css.map": "/react-quote-app/static/css/main.d432d248.css.map",
+    "main.90a6a1e4.js.map": "/react-quote-app/static/js/main.90a6a1e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d432d248.css",
+    "static/js/main.90a6a1e4.js"
+  ]
+}
