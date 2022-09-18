@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.app {
+    height: 100%;
+    background: url('/images/1946437.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s linear;
+  }
+  
+.card {
+    background: rgba(245, 245, 245, 0.7);
+    width: 40%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 3%;
+    box-shadow: 10px 10px;
+  }
+.text{
+    line-height: 3rem;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+}
+
+button{
+    font-size: 30px;
+    margin-top: 50px;
+    height: min-content;
+    padding: 10px 35px;
+    border: 3px solid black;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+}
+
+button:hover{
+    animation: 0.7s tilt-shaking;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+  }
+@media (max-width: 425px) {
+    .card{
+        padding: 20px;
+        width: 50%;
+    }
+    .text{
+        font-size: 35px;
+    }
+}
