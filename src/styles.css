@@ -51,7 +51,8 @@ button{
 }
 
 button:hover{
-    animation: 0.7s tilt-shaking;
+    cursor: pointer;
+    animation: 0.7s tilt-shaking infinite;
 }
 
 @keyframes tilt-shaking {

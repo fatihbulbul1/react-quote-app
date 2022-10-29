@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 function App() {
   const [quote, setQuote] = useState('')
 
   const fetchQuote = () =>{
-    axios.get('https://api.adviceslip.com/advice')
-    .then(res => {
-      setQuote(res.data.slip.advice)
-    })
+    fetch('https://api.adviceslip.com/advice',{cache: "no-store"})
+    .then(res => res.json())
+    .then(data => setQuote(data.slip.advice))
     .catch( e => console.log(e))
   }
   useEffect(fetchQuote,[])

@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://fatihbulbul1.github.io/react-quote-app/",
+  "homepage": "https://fatihbulbul1.github.io/react-quote-app/",
   "name": "quote-app",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,7 @@
     "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,5 +41,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "![](./images/screenshot.png)\r Live website: https://fatihbulbul1.github.io/react-quote-app/\r # Overview\r Made by:\r - **React**\r - **React hooks**\r - Fetch API\r - HTML\r - CSS\r - JS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatihbulbul1/react-quote-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatihbulbul1/react-quote-app/issues"
   }
 }
